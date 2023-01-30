@@ -5,6 +5,7 @@ console.log (secondName);
 let color = prompt('Dimmi il tuo colore preferito')
 console.log (color);
 let number = prompt ('Dimmi il tuo numero preferito')
+number = parseInt(number)
 console.log (number);
 const output = fristName + secondName + color + number
 console.log (output);
