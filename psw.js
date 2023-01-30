@@ -1,11 +1,11 @@
-let fristName = prompt('Dimmi il tuo nome')
+const fristName = prompt('Sapere il tuo nome io voglio giovane padawan ')
 console.log (fristName);
-let secondName = prompt('Dimmi il tuo cognome')
+const secondName = prompt(' Ora sapere il tuo cognome io voglio giovane padawan')
 console.log (secondName);
-let color = prompt('Dimmi il tuo colore preferito')
+const color = prompt('Scrivere il colore della tua spada laser tu devi')
 console.log (color);
-let number = prompt ('Dimmi il tuo numero preferito')
-number = parseInt(number)
+const number = prompt ('Il numero dei tuoi midichlorian è')
+// number = parseInt(number)
 console.log (number);
 const output = fristName + secondName + color + number
 console.log (output);

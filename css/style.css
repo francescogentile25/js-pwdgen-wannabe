@@ -1,0 +1,32 @@
+body{
+    background-image: url(../img/download.jfif);
+}
+
+audio{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+.millennium{
+    position: absolute;
+}
+
+.millennium{
+    animation: millennium;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(.86,.36,.32,.82);
+}
+
+@keyframes millennium {
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+.offcanvas{
+    --bs-offcanvas-width:700px
+}
